@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Logged In</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #2b98e0, #16bae4);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .status-container {
+      background: white;
+      padding: 40px 30px;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+      text-align: center;
+      max-width: 400px;
+      width: 90%;
+    }
+
+    .status-container h2 {
+      color: #333;
+      margin-bottom: 16px;
+    }
+
+    .status-container p {
+      color: #555;
+      font-size: 16px;
+      margin-bottom: 24px;
+    }
+
+    .status-container a.button {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #ef4444;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .status-container a.button:hover {
+      background-color: #dc2626;
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="status-container">
+    <h2>You’ve Been Logged In</h2>
+    <p>Your internet session has started successfully.</p>
+    <a href="CITS-logout.html" class="button">Logout</a>
+  </div>
+</body>
+</html>
